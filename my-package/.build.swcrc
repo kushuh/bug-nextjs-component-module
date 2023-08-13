@@ -1,0 +1,33 @@
+{
+  "jsc": {
+    "baseUrl": ".",
+    "transform": {
+      "react": {
+        "runtime": "automatic",
+        "importSource": "react"
+      }
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true
+    },
+    "target": "es2022",
+    "loose": false,
+    "minify": {
+      "compress": false,
+      "mangle": false
+    },
+    "paths": {
+      "@components": [
+        "package/components"
+      ]
+    }
+  },
+  "module": {
+    "type": "es6",
+    "strict": false,
+    "lazy": true,
+    "noInterop": false
+  },
+  "minify": false
+}
